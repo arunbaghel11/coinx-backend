@@ -1,0 +1,17 @@
+{
+    "name": "crypto_price_tracker",
+    "version": "1.0.0",
+    "description": "Cryptocurrency tracker using CoinGecko API",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js"
+    },
+    "dependencies": {
+        "axios": "^1.4.0",
+        "dotenv": "^16.0.3",
+        "express": "^4.18.2",
+        "mongodb": "^6.12.0",
+        "mongoose": "^7.0.1",
+        "node-cron": "^3.0.1"
+    }
+}
